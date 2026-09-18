@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "metadata": {
+    "total_personalized_phrases": 1,
+    "last_modified": "2026-09-18T10:43:33Z"
+  },
+  "entries": {
+    "kld zzz": {
+      "intent_id": "FEELING_COLD",
+      "raw_example": "kld zzz",
+      "timestamp": "2026-09-18T10:43:33Z",
+      "usage_count": 2,
+      "note": "Confirmed by user"
+    }
+  }
+}

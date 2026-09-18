@@ -1,0 +1,56 @@
+{
+  "benchmark_evaluation": {
+    "total_samples": 288,
+    "overall_top1_accuracy": 0.9618,
+    "overall_abstention_rate": 0.0417,
+    "evaluated_accuracy_excluding_abstentions": 0.9674,
+    "severity_breakdown": {
+      "clean": {
+        "total_samples": 72,
+        "top1_accuracy": 1.0,
+        "abstention_rate": 0.0,
+        "non_abstained_accuracy": 1.0,
+        "average_confidence": 1.0
+      },
+      "mild": {
+        "total_samples": 72,
+        "top1_accuracy": 1.0,
+        "abstention_rate": 0.0,
+        "non_abstained_accuracy": 1.0,
+        "average_confidence": 0.9905
+      },
+      "moderate": {
+        "total_samples": 72,
+        "top1_accuracy": 0.9722,
+        "abstention_rate": 0.0278,
+        "non_abstained_accuracy": 0.9714,
+        "average_confidence": 0.8741
+      },
+      "severe": {
+        "total_samples": 72,
+        "top1_accuracy": 0.875,
+        "abstention_rate": 0.1389,
+        "non_abstained_accuracy": 0.8871,
+        "average_confidence": 0.8028
+      }
+    },
+    "top_confusions": {
+      "NEED_WATER -> TAKE_MEDICATION": 1,
+      "NEED_WATER -> TIRED_SLEEP": 1,
+      "RESTROOM_ACCESS -> REQUEST_ASSISTANCE": 1,
+      "FEELING_HOT -> FEELING_COLD": 1,
+      "TAKE_MEDICATION -> RESTROOM_ACCESS": 1
+    }
+  },
+  "personalization_experiment": {
+    "total_test_phrases": 16,
+    "before_accuracy": 0.375,
+    "after_accuracy": 1.0,
+    "accuracy_delta": 0.625,
+    "before_abstention_rate": 0.875,
+    "after_abstention_rate": 0.0,
+    "before_avg_confidence": 0.4565,
+    "after_avg_confidence": 1.0,
+    "confidence_gain": 0.5435
+  }
+}

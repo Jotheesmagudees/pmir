@@ -1,0 +1,304 @@
+{
+  "version": "1.0.0",
+  "metadata": {
+    "description": "Base communication intents for PMIR-Net-Lite prototype",
+    "total_intents": 18,
+    "domain": "Assistive Communication & Daily Living"
+  },
+  "intents": [
+    {
+      "id": "NEED_WATER",
+      "category": "Basic Needs",
+      "canonical_label": "Request Water / Drink",
+      "tts_response": "I would like a glass of water, please.",
+      "urgency": "medium",
+      "base_phrases": [
+        "i need water",
+        "drink please",
+        "i am thirsty",
+        "can i have some water",
+        "cup of water",
+        "water please",
+        "give me something to drink",
+        "need cold water"
+      ]
+    },
+    {
+      "id": "NEED_FOOD",
+      "category": "Basic Needs",
+      "canonical_label": "Request Food / Meal",
+      "tts_response": "I am hungry and would like something to eat.",
+      "urgency": "medium",
+      "base_phrases": [
+        "i am hungry",
+        "want food",
+        "lunch time",
+        "can i eat a snack",
+        "dinner please",
+        "breakfast ready",
+        "need some food",
+        "bring me food"
+      ]
+    },
+    {
+      "id": "EXPRESS_PAIN",
+      "category": "Medical & Comfort",
+      "canonical_label": "Report Pain or Discomfort",
+      "tts_response": "I am experiencing pain and need assistance.",
+      "urgency": "high",
+      "base_phrases": [
+        "i am in pain",
+        "it hurts right here",
+        "my head hurts badly",
+        "severe ache",
+        "pain is getting worse",
+        "hurting a lot",
+        "need pain relief",
+        "body ache"
+      ]
+    },
+    {
+      "id": "RESTROOM_ACCESS",
+      "category": "Basic Needs",
+      "canonical_label": "Restroom / Toilet Request",
+      "tts_response": "I need help going to the restroom.",
+      "urgency": "high",
+      "base_phrases": [
+        "i need the restroom",
+        "bathroom please",
+        "help me to the toilet",
+        "need to pee",
+        "restroom urgent",
+        "take me to the bathroom",
+        "washroom assistance"
+      ]
+    },
+    {
+      "id": "ADJUST_POSITION",
+      "category": "Physical Comfort",
+      "canonical_label": "Adjust Body / Bed Position",
+      "tts_response": "Please help me adjust my position in bed or chair.",
+      "urgency": "medium",
+      "base_phrases": [
+        "adjust my pillow",
+        "raise the bed",
+        "reposition my legs",
+        "sit up higher",
+        "turn me over",
+        "uncomfortable position",
+        "shift my weight",
+        "move my arm"
+      ]
+    },
+    {
+      "id": "FEELING_COLD",
+      "category": "Physical Comfort",
+      "canonical_label": "Feeling Cold / Request Blanket",
+      "tts_response": "I am feeling cold. Please bring a blanket or adjust the temperature.",
+      "urgency": "low",
+      "base_phrases": [
+        "i am freezing",
+        "too cold in here",
+        "bring an extra blanket",
+        "turn down the air conditioner",
+        "i am shivering",
+        "need warm blanket",
+        "cold hands"
+      ]
+    },
+    {
+      "id": "FEELING_HOT",
+      "category": "Physical Comfort",
+      "canonical_label": "Feeling Hot / Request Fan",
+      "tts_response": "I am feeling warm. Please turn on the fan or lower the heating.",
+      "urgency": "low",
+      "base_phrases": [
+        "i am too hot",
+        "turn on the fan",
+        "it is boiling in here",
+        "sweating a lot",
+        "cooler air please",
+        "remove the blanket",
+        "open the window"
+      ]
+    },
+    {
+      "id": "TAKE_MEDICATION",
+      "category": "Medical & Comfort",
+      "canonical_label": "Medication Timing / Request",
+      "tts_response": "It is time for my scheduled medication.",
+      "urgency": "high",
+      "base_phrases": [
+        "time for my medicine",
+        "need my pills",
+        "medication schedule",
+        "give me painkiller",
+        "did i take my prescription",
+        "pill box please",
+        "morning medicine"
+      ]
+    },
+    {
+      "id": "CALL_FAMILY",
+      "category": "Social & Connection",
+      "canonical_label": "Contact Family / Loved Ones",
+      "tts_response": "Please help me call my family member.",
+      "urgency": "medium",
+      "base_phrases": [
+        "call my daughter",
+        "phone my son",
+        "talk to my spouse",
+        "call family",
+        "video call with kids",
+        "reach my caregiver",
+        "dial home"
+      ]
+    },
+    {
+      "id": "REQUEST_ASSISTANCE",
+      "category": "Assistance",
+      "canonical_label": "General Assistance",
+      "tts_response": "I need some help here, please come over.",
+      "urgency": "medium",
+      "base_phrases": [
+        "help me please",
+        "need assistance",
+        "come here for a moment",
+        "can someone help",
+        "need a hand",
+        "attendant please",
+        "assist me"
+      ]
+    },
+    {
+      "id": "EMERGENCY_HELP",
+      "category": "Emergency",
+      "canonical_label": "Urgent Emergency Assistance",
+      "tts_response": "Emergency! I need immediate help right now!",
+      "urgency": "critical",
+      "base_phrases": [
+        "emergency help",
+        "call nine one one",
+        "call nurse urgently",
+        "i cannot breathe",
+        "danger help",
+        "urgent medical help",
+        "panic button",
+        "something is wrong"
+      ]
+    },
+    {
+      "id": "TIRED_SLEEP",
+      "category": "Daily Living",
+      "canonical_label": "Tired / Go to Sleep",
+      "tts_response": "I am feeling tired and would like to rest now.",
+      "urgency": "low",
+      "base_phrases": [
+        "i want to sleep",
+        "turn off the lights",
+        "feeling very tired",
+        "ready for bed",
+        "nap time",
+        "i want to rest",
+        "quiet time please"
+      ]
+    },
+    {
+      "id": "GREETING_HELLO",
+      "category": "Social & Connection",
+      "canonical_label": "Greeting / Hello",
+      "tts_response": "Hello! Good to see you today.",
+      "urgency": "low",
+      "base_phrases": [
+        "hello there",
+        "good morning",
+        "hi nice to see you",
+        "good afternoon",
+        "hey how are you",
+        "welcome",
+        "greetings"
+      ]
+    },
+    {
+      "id": "GREETING_GOODBYE",
+      "category": "Social & Connection",
+      "canonical_label": "Farewell / Goodbye",
+      "tts_response": "Goodbye, thank you for your time and see you soon.",
+      "urgency": "low",
+      "base_phrases": [
+        "goodbye",
+        "see you later",
+        "have a great day",
+        "bye bye",
+        "talk to you tomorrow",
+        "farewell",
+        "see you soon"
+      ]
+    },
+    {
+      "id": "EXPRESS_GRATITUDE",
+      "category": "Social & Connection",
+      "canonical_label": "Express Gratitude",
+      "tts_response": "Thank you very much for your help.",
+      "urgency": "low",
+      "base_phrases": [
+        "thank you so much",
+        "appreciate your help",
+        "thanks a lot",
+        "very grateful",
+        "thanks for caring",
+        "much appreciated"
+      ]
+    },
+    {
+      "id": "YES_CONFIRM",
+      "category": "Conversation Control",
+      "canonical_label": "Affirmation / Yes",
+      "tts_response": "Yes, that is correct.",
+      "urgency": "low",
+      "base_phrases": [
+        "yes",
+        "yes that is right",
+        "correct",
+        "affirmative",
+        "agreed",
+        "that is what i mean",
+        "sure"
+      ]
+    },
+    {
+      "id": "NO_DECLINE",
+      "category": "Conversation Control",
+      "canonical_label": "Negation / No",
+      "tts_response": "No, that is not what I want.",
+      "urgency": "low",
+      "base_phrases": [
+        "no",
+        "no thank you",
+        "incorrect",
+        "that is not right",
+        "do not want that",
+        "negative",
+        "cancel that",
+        "stop"
+      ]
+    },
+    {
+      "id": "ENTERTAINMENT_MEDIA",
+      "category": "Daily Living",
+      "canonical_label": "Media / TV / Audio Control",
+      "tts_response": "Please turn on the television or play some audio.",
+      "urgency": "low",
+      "base_phrases": [
+        "turn on the tv",
+        "play music",
+        "audiobook please",
+        "change the channel",
+        "read my book",
+        "put on the radio",
+        "volume up"
+      ]
+    }
+  ]
+}
+

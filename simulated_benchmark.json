@@ -1,0 +1,2610 @@
+{
+  "metadata": {
+    "dataset_name": "PMIR-Net-Lite Simulated Imperfect Speech Benchmark",
+    "version": "1.0.0",
+    "data_source": "SIMULATED",
+    "responsible_use_notice": "Assistive prototype benchmark only. All samples procedurally simulated. No clinical validity or authentic patient data.",
+    "total_samples": 288,
+    "total_intents": 18,
+    "severity_distribution": {
+      "clean": 72,
+      "mild": 72,
+      "moderate": 72,
+      "severe": 72
+    }
+  },
+  "samples": [
+    {
+      "id": "SIM_0001",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "NEED_WATER",
+      "canonical_base_phrase": "drink please",
+      "distorted_transcript": "Drink please",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0002",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "NEED_WATER",
+      "canonical_base_phrase": "can i have some water",
+      "distorted_transcript": "Can i have some water.",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0003",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "NEED_WATER",
+      "canonical_base_phrase": "drink please",
+      "distorted_transcript": "drink please.",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0004",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "NEED_WATER",
+      "canonical_base_phrase": "drink please",
+      "distorted_transcript": "Drink please",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0005",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "NEED_WATER",
+      "canonical_base_phrase": "i need water",
+      "distorted_transcript": "i need water",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0006",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "NEED_WATER",
+      "canonical_base_phrase": "can i have some water",
+      "distorted_transcript": "i havee some water",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0007",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "NEED_WATER",
+      "canonical_base_phrase": "water please",
+      "distorted_transcript": "water p-p-please",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0008",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "NEED_WATER",
+      "canonical_base_phrase": "water please",
+      "distorted_transcript": "w-w-water pleasee",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0009",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "NEED_WATER",
+      "canonical_base_phrase": "cup of water",
+      "distorted_transcript": "cup of water",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0010",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "NEED_WATER",
+      "canonical_base_phrase": "water please",
+      "distorted_transcript": "um vader please",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0011",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "NEED_WATER",
+      "canonical_base_phrase": "cup of water",
+      "distorted_transcript": "cup ov waer",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0012",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "NEED_WATER",
+      "canonical_base_phrase": "can i have some water",
+      "distorted_transcript": "can i hafe ah some wathel",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0013",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "NEED_WATER",
+      "canonical_base_phrase": "can i have some water",
+      "distorted_transcript": "have s-s-s...some",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0014",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "NEED_WATER",
+      "canonical_base_phrase": "give me something to drink",
+      "distorted_transcript": "uh give me",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0015",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "NEED_WATER",
+      "canonical_base_phrase": "i am thirsty",
+      "distorted_transcript": "th-rsty",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0016",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "NEED_WATER",
+      "canonical_base_phrase": "i am thirsty",
+      "distorted_transcript": "er t-t-t...thirs-y",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0017",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "NEED_FOOD",
+      "canonical_base_phrase": "bring me food",
+      "distorted_transcript": "bring me food",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0018",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "NEED_FOOD",
+      "canonical_base_phrase": "i am hungry",
+      "distorted_transcript": "i am hungry.",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0019",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "NEED_FOOD",
+      "canonical_base_phrase": "dinner please",
+      "distorted_transcript": "dinner please",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0020",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "NEED_FOOD",
+      "canonical_base_phrase": "dinner please",
+      "distorted_transcript": "dinner please",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0021",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "NEED_FOOD",
+      "canonical_base_phrase": "dinner please",
+      "distorted_transcript": "d-d-dinner pleasee",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0022",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "NEED_FOOD",
+      "canonical_base_phrase": "can i eat a snack",
+      "distorted_transcript": "i e-e-eat a snack",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0023",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "NEED_FOOD",
+      "canonical_base_phrase": "i am hungry",
+      "distorted_transcript": "i aam hungry",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0024",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "NEED_FOOD",
+      "canonical_base_phrase": "can i eat a snack",
+      "distorted_transcript": "i eat a snaack",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0025",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "NEED_FOOD",
+      "canonical_base_phrase": "lunch time",
+      "distorted_transcript": "wunch time ah",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0026",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "NEED_FOOD",
+      "canonical_base_phrase": "can i eat a snack",
+      "distorted_transcript": "can i ea...eat a snack",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0027",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "NEED_FOOD",
+      "canonical_base_phrase": "bring me food",
+      "distorted_transcript": "uh brink me food",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0028",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "NEED_FOOD",
+      "canonical_base_phrase": "can i eat a snack",
+      "distorted_transcript": "can um i ead a snacg",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0029",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "NEED_FOOD",
+      "canonical_base_phrase": "bring me food",
+      "distorted_transcript": "uh bri-g me",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0030",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "NEED_FOOD",
+      "canonical_base_phrase": "need some food",
+      "distorted_transcript": "n-n-n...need s-s-s...some",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0031",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "NEED_FOOD",
+      "canonical_base_phrase": "i am hungry",
+      "distorted_transcript": "ung-y",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0032",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "NEED_FOOD",
+      "canonical_base_phrase": "want food",
+      "distorted_transcript": "um w-w-w...want f-f-f...food",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0033",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "EXPRESS_PAIN",
+      "canonical_base_phrase": "my head hurts badly",
+      "distorted_transcript": "My head hurts badly",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0034",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "EXPRESS_PAIN",
+      "canonical_base_phrase": "it hurts right here",
+      "distorted_transcript": "it hurts right here",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0035",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "EXPRESS_PAIN",
+      "canonical_base_phrase": "it hurts right here",
+      "distorted_transcript": "It hurts right here",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0036",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "EXPRESS_PAIN",
+      "canonical_base_phrase": "i am in pain",
+      "distorted_transcript": "i am in pain",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0037",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "EXPRESS_PAIN",
+      "canonical_base_phrase": "severe ache",
+      "distorted_transcript": "s-s-severe ache",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0038",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "EXPRESS_PAIN",
+      "canonical_base_phrase": "need pain relief",
+      "distorted_transcript": "n-n-need paiin relief",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0039",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "EXPRESS_PAIN",
+      "canonical_base_phrase": "body ache",
+      "distorted_transcript": "body a-a-ache",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0040",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "EXPRESS_PAIN",
+      "canonical_base_phrase": "body ache",
+      "distorted_transcript": "b-b-boody ache",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0041",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "EXPRESS_PAIN",
+      "canonical_base_phrase": "hurting a lot",
+      "distorted_transcript": "hulting uh a rot",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0042",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "EXPRESS_PAIN",
+      "canonical_base_phrase": "severe ache",
+      "distorted_transcript": "sefere ache",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0043",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "EXPRESS_PAIN",
+      "canonical_base_phrase": "pain is getting worse",
+      "distorted_transcript": "um pen is ketting vowse",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0044",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "EXPRESS_PAIN",
+      "canonical_base_phrase": "hurting a lot",
+      "distorted_transcript": "hurting a lot",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0045",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "EXPRESS_PAIN",
+      "canonical_base_phrase": "pain is getting worse",
+      "distorted_transcript": "p-p-p...pain is",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0046",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "EXPRESS_PAIN",
+      "canonical_base_phrase": "pain is getting worse",
+      "distorted_transcript": "um pane is",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0047",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "EXPRESS_PAIN",
+      "canonical_base_phrase": "severe ache",
+      "distorted_transcript": "um s-s-s...severe ache",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0048",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "EXPRESS_PAIN",
+      "canonical_base_phrase": "pain is getting worse",
+      "distorted_transcript": "um pain is",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0049",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "RESTROOM_ACCESS",
+      "canonical_base_phrase": "washroom assistance",
+      "distorted_transcript": "Washroom assistance.",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0050",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "RESTROOM_ACCESS",
+      "canonical_base_phrase": "washroom assistance",
+      "distorted_transcript": "Washroom assistance",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0051",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "RESTROOM_ACCESS",
+      "canonical_base_phrase": "bathroom please",
+      "distorted_transcript": "bathroom please",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0052",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "RESTROOM_ACCESS",
+      "canonical_base_phrase": "need to pee",
+      "distorted_transcript": "need to pee.",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0053",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "RESTROOM_ACCESS",
+      "canonical_base_phrase": "take me to the bathroom",
+      "distorted_transcript": "take me to the bathroom",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0054",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "RESTROOM_ACCESS",
+      "canonical_base_phrase": "washroom assistance",
+      "distorted_transcript": "waashroom a-a-assistance",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0055",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "RESTROOM_ACCESS",
+      "canonical_base_phrase": "help me to the toilet",
+      "distorted_transcript": "help me to the toilet",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0056",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "RESTROOM_ACCESS",
+      "canonical_base_phrase": "washroom assistance",
+      "distorted_transcript": "washrooom assistance",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0057",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "RESTROOM_ACCESS",
+      "canonical_base_phrase": "i need the restroom",
+      "distorted_transcript": "i need the bavrum",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0058",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "RESTROOM_ACCESS",
+      "canonical_base_phrase": "i need the restroom",
+      "distorted_transcript": "i need the uh resd room",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0059",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "RESTROOM_ACCESS",
+      "canonical_base_phrase": "help me to the toilet",
+      "distorted_transcript": "heb me to the oilet",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0060",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "RESTROOM_ACCESS",
+      "canonical_base_phrase": "help me to the toilet",
+      "distorted_transcript": "hewv ah me o the to...toilet",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0061",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "RESTROOM_ACCESS",
+      "canonical_base_phrase": "need to pee",
+      "distorted_transcript": "er n-n-n...need pee",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0062",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "RESTROOM_ACCESS",
+      "canonical_base_phrase": "take me to the bathroom",
+      "distorted_transcript": "um take me",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0063",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "RESTROOM_ACCESS",
+      "canonical_base_phrase": "i need the restroom",
+      "distorted_transcript": "need restroo-",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0064",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "RESTROOM_ACCESS",
+      "canonical_base_phrase": "help me to the toilet",
+      "distorted_transcript": "e-e-e...elp me",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0065",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "ADJUST_POSITION",
+      "canonical_base_phrase": "reposition my legs",
+      "distorted_transcript": "Reposition my legs",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0066",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "ADJUST_POSITION",
+      "canonical_base_phrase": "shift my weight",
+      "distorted_transcript": "shift my weight",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0067",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "ADJUST_POSITION",
+      "canonical_base_phrase": "turn me over",
+      "distorted_transcript": "turn me over",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0068",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "ADJUST_POSITION",
+      "canonical_base_phrase": "turn me over",
+      "distorted_transcript": "Turn me over",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0069",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "ADJUST_POSITION",
+      "canonical_base_phrase": "uncomfortable position",
+      "distorted_transcript": "uncomfortable p-p-position",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0070",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "ADJUST_POSITION",
+      "canonical_base_phrase": "move my arm",
+      "distorted_transcript": "move my a-a-aarm",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0071",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "ADJUST_POSITION",
+      "canonical_base_phrase": "uncomfortable position",
+      "distorted_transcript": "uncomfortable position",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0072",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "ADJUST_POSITION",
+      "canonical_base_phrase": "turn me over",
+      "distorted_transcript": "tuurn me over",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0073",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "ADJUST_POSITION",
+      "canonical_base_phrase": "move my arm",
+      "distorted_transcript": "move ah my arm",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0074",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "ADJUST_POSITION",
+      "canonical_base_phrase": "shift my weight",
+      "distorted_transcript": "shivt my weight ah",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0075",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "ADJUST_POSITION",
+      "canonical_base_phrase": "raise the bed",
+      "distorted_transcript": "raise the bed",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0076",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "ADJUST_POSITION",
+      "canonical_base_phrase": "shift my weight",
+      "distorted_transcript": "shift my ah weight",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0077",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "ADJUST_POSITION",
+      "canonical_base_phrase": "move my arm",
+      "distorted_transcript": "um move a-a-a...arm",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0078",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "ADJUST_POSITION",
+      "canonical_base_phrase": "sit up higher",
+      "distorted_transcript": "er s-s-s...sit up",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0079",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "ADJUST_POSITION",
+      "canonical_base_phrase": "raise the bed",
+      "distorted_transcript": "um r-r-r...ra-se b-b-b...bed",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0080",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "ADJUST_POSITION",
+      "canonical_base_phrase": "shift my weight",
+      "distorted_transcript": "s-s-s...shi-t w-w-w...weigh-",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0081",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "FEELING_COLD",
+      "canonical_base_phrase": "need warm blanket",
+      "distorted_transcript": "Need warm blanket",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0082",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "FEELING_COLD",
+      "canonical_base_phrase": "i am shivering",
+      "distorted_transcript": "i am shivering.",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0083",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "FEELING_COLD",
+      "canonical_base_phrase": "bring an extra blanket",
+      "distorted_transcript": "Bring an extra blanket",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0084",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "FEELING_COLD",
+      "canonical_base_phrase": "cold hands",
+      "distorted_transcript": "cold hands",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0085",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "FEELING_COLD",
+      "canonical_base_phrase": "i am shivering",
+      "distorted_transcript": "i am shivering",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0086",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "FEELING_COLD",
+      "canonical_base_phrase": "bring an extra blanket",
+      "distorted_transcript": "bring an extra b-b-blaanket",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0087",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "FEELING_COLD",
+      "canonical_base_phrase": "cold hands",
+      "distorted_transcript": "cold hands",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0088",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "FEELING_COLD",
+      "canonical_base_phrase": "i am shivering",
+      "distorted_transcript": "am s-s-shivering",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0089",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "FEELING_COLD",
+      "canonical_base_phrase": "i am freezing",
+      "distorted_transcript": "i am um fleesing",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0090",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "FEELING_COLD",
+      "canonical_base_phrase": "turn down the air conditioner",
+      "distorted_transcript": "tu...tun town he aiw conditioner",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0091",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "FEELING_COLD",
+      "canonical_base_phrase": "i am shivering",
+      "distorted_transcript": "i um am thhivewing",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0092",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "FEELING_COLD",
+      "canonical_base_phrase": "need warm blanket",
+      "distorted_transcript": "need rawm bl...blanket",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0093",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "FEELING_COLD",
+      "canonical_base_phrase": "need warm blanket",
+      "distorted_transcript": "need w-w-w...warm",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0094",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "FEELING_COLD",
+      "canonical_base_phrase": "bring an extra blanket",
+      "distorted_transcript": "er bring an",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0095",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "FEELING_COLD",
+      "canonical_base_phrase": "cold hands",
+      "distorted_transcript": "um c-c-c...col hand-",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0096",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "FEELING_COLD",
+      "canonical_base_phrase": "cold hands",
+      "distorted_transcript": "er kold han-s",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0097",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "FEELING_HOT",
+      "canonical_base_phrase": "cooler air please",
+      "distorted_transcript": "cooler air please",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0098",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "FEELING_HOT",
+      "canonical_base_phrase": "open the window",
+      "distorted_transcript": "open the window",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0099",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "FEELING_HOT",
+      "canonical_base_phrase": "sweating a lot",
+      "distorted_transcript": "sweating a lot",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0100",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "FEELING_HOT",
+      "canonical_base_phrase": "it is boiling in here",
+      "distorted_transcript": "it is boiling in here",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0101",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "FEELING_HOT",
+      "canonical_base_phrase": "i am too hot",
+      "distorted_transcript": "am t-t-too hot",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0102",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "FEELING_HOT",
+      "canonical_base_phrase": "cooler air please",
+      "distorted_transcript": "cooler aair p-p-please",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0103",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "FEELING_HOT",
+      "canonical_base_phrase": "sweating a lot",
+      "distorted_transcript": "s-s-sweating aa lot",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0104",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "FEELING_HOT",
+      "canonical_base_phrase": "cooler air please",
+      "distorted_transcript": "c-c-cooleer air please",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0105",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "FEELING_HOT",
+      "canonical_base_phrase": "sweating a lot",
+      "distorted_transcript": "sweating a lot uh",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0106",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "FEELING_HOT",
+      "canonical_base_phrase": "it is boiling in here",
+      "distorted_transcript": "it is um boiling in here",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0107",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "FEELING_HOT",
+      "canonical_base_phrase": "i am too hot",
+      "distorted_transcript": "i am too hot",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0108",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "FEELING_HOT",
+      "canonical_base_phrase": "turn on the fan",
+      "distorted_transcript": "tun on the fan",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0109",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "FEELING_HOT",
+      "canonical_base_phrase": "open the window",
+      "distorted_transcript": "o-o-o...open w-w-w...win-ow",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0110",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "FEELING_HOT",
+      "canonical_base_phrase": "turn on the fan",
+      "distorted_transcript": "t-t-t...tern on",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0111",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "FEELING_HOT",
+      "canonical_base_phrase": "turn on the fan",
+      "distorted_transcript": "um t-t-t...tun on",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0112",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "FEELING_HOT",
+      "canonical_base_phrase": "sweating a lot",
+      "distorted_transcript": "s-s-s...swea-ing l-l-l...lot",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0113",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "TAKE_MEDICATION",
+      "canonical_base_phrase": "give me painkiller",
+      "distorted_transcript": "Give me painkiller.",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0114",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "TAKE_MEDICATION",
+      "canonical_base_phrase": "give me painkiller",
+      "distorted_transcript": "Give me painkiller",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0115",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "TAKE_MEDICATION",
+      "canonical_base_phrase": "time for my medicine",
+      "distorted_transcript": "Time for my medicine",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0116",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "TAKE_MEDICATION",
+      "canonical_base_phrase": "medication schedule",
+      "distorted_transcript": "Medication schedule",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0117",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "TAKE_MEDICATION",
+      "canonical_base_phrase": "did i take my prescription",
+      "distorted_transcript": "did i take my prescription",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0118",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "TAKE_MEDICATION",
+      "canonical_base_phrase": "morning medicine",
+      "distorted_transcript": "morning mediciine",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0119",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "TAKE_MEDICATION",
+      "canonical_base_phrase": "morning medicine",
+      "distorted_transcript": "morning m-m-medicine",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0120",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "TAKE_MEDICATION",
+      "canonical_base_phrase": "did i take my prescription",
+      "distorted_transcript": "did ii take my prescription",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0121",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "TAKE_MEDICATION",
+      "canonical_base_phrase": "pill box please",
+      "distorted_transcript": "um birw box pleaze",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0122",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "TAKE_MEDICATION",
+      "canonical_base_phrase": "medication schedule",
+      "distorted_transcript": "medication schedule",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0123",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "TAKE_MEDICATION",
+      "canonical_base_phrase": "medication schedule",
+      "distorted_transcript": "medicadion schedule",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0124",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "TAKE_MEDICATION",
+      "canonical_base_phrase": "give me painkiller",
+      "distorted_transcript": "give me painkilrer",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0125",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "TAKE_MEDICATION",
+      "canonical_base_phrase": "time for my medicine",
+      "distorted_transcript": "t-t-t...time for",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0126",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "TAKE_MEDICATION",
+      "canonical_base_phrase": "did i take my prescription",
+      "distorted_transcript": "d-d-d...did t-t-t...take",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0127",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "TAKE_MEDICATION",
+      "canonical_base_phrase": "morning medicine",
+      "distorted_transcript": "er mo-ning m-m-m...medisin",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0128",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "TAKE_MEDICATION",
+      "canonical_base_phrase": "morning medicine",
+      "distorted_transcript": "m-m-m...mo-ning medz",
+      "urgency": "high"
+    },
+    {
+      "id": "SIM_0129",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "CALL_FAMILY",
+      "canonical_base_phrase": "talk to my spouse",
+      "distorted_transcript": "talk to my spouse",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0130",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "CALL_FAMILY",
+      "canonical_base_phrase": "reach my caregiver",
+      "distorted_transcript": "reach my caregiver",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0131",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "CALL_FAMILY",
+      "canonical_base_phrase": "video call with kids",
+      "distorted_transcript": "Video call with kids.",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0132",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "CALL_FAMILY",
+      "canonical_base_phrase": "talk to my spouse",
+      "distorted_transcript": "talk to my spouse",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0133",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "CALL_FAMILY",
+      "canonical_base_phrase": "call family",
+      "distorted_transcript": "call family",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0134",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "CALL_FAMILY",
+      "canonical_base_phrase": "call family",
+      "distorted_transcript": "c-c-call famiily",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0135",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "CALL_FAMILY",
+      "canonical_base_phrase": "dial home",
+      "distorted_transcript": "d-d-dial home",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0136",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "CALL_FAMILY",
+      "canonical_base_phrase": "talk to my spouse",
+      "distorted_transcript": "talk to my spouse",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0137",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "CALL_FAMILY",
+      "canonical_base_phrase": "call my daughter",
+      "distorted_transcript": "calr my daukhder uh",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0138",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "CALL_FAMILY",
+      "canonical_base_phrase": "talk to my spouse",
+      "distorted_transcript": "talk to my zbouse",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0139",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "CALL_FAMILY",
+      "canonical_base_phrase": "dial home",
+      "distorted_transcript": "th...thial home",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0140",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "CALL_FAMILY",
+      "canonical_base_phrase": "talk to my spouse",
+      "distorted_transcript": "talk to my ah spouse",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0141",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "CALL_FAMILY",
+      "canonical_base_phrase": "talk to my spouse",
+      "distorted_transcript": "um talk s-s-s...spouse",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0142",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "CALL_FAMILY",
+      "canonical_base_phrase": "call my daughter",
+      "distorted_transcript": "kawl d-d-d...daughter",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0143",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "CALL_FAMILY",
+      "canonical_base_phrase": "dial home",
+      "distorted_transcript": "dial h-h-h...home",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0144",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "CALL_FAMILY",
+      "canonical_base_phrase": "phone my son",
+      "distorted_transcript": "p-p-p...phon- s-s-s...son",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0145",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "REQUEST_ASSISTANCE",
+      "canonical_base_phrase": "help me please",
+      "distorted_transcript": "help me please",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0146",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "REQUEST_ASSISTANCE",
+      "canonical_base_phrase": "attendant please",
+      "distorted_transcript": "Attendant please",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0147",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "REQUEST_ASSISTANCE",
+      "canonical_base_phrase": "need assistance",
+      "distorted_transcript": "Need assistance",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0148",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "REQUEST_ASSISTANCE",
+      "canonical_base_phrase": "come here for a moment",
+      "distorted_transcript": "come here for a moment",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0149",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "REQUEST_ASSISTANCE",
+      "canonical_base_phrase": "attendant please",
+      "distorted_transcript": "attendant please",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0150",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "REQUEST_ASSISTANCE",
+      "canonical_base_phrase": "assist me",
+      "distorted_transcript": "assist me",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0151",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "REQUEST_ASSISTANCE",
+      "canonical_base_phrase": "attendant please",
+      "distorted_transcript": "aattendant please",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0152",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "REQUEST_ASSISTANCE",
+      "canonical_base_phrase": "attendant please",
+      "distorted_transcript": "attendant please",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0153",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "REQUEST_ASSISTANCE",
+      "canonical_base_phrase": "can someone help",
+      "distorted_transcript": "can someone helb",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0154",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "REQUEST_ASSISTANCE",
+      "canonical_base_phrase": "help me please",
+      "distorted_transcript": "hewp me vlease uh",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0155",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "REQUEST_ASSISTANCE",
+      "canonical_base_phrase": "need assistance",
+      "distorted_transcript": "need um aszistance",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0156",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "REQUEST_ASSISTANCE",
+      "canonical_base_phrase": "need assistance",
+      "distorted_transcript": "um neeth assistance",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0157",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "REQUEST_ASSISTANCE",
+      "canonical_base_phrase": "assist me",
+      "distorted_transcript": "um a-a-a...ass-st me",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0158",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "REQUEST_ASSISTANCE",
+      "canonical_base_phrase": "attendant please",
+      "distorted_transcript": "attendan- pl-ase",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0159",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "REQUEST_ASSISTANCE",
+      "canonical_base_phrase": "assist me",
+      "distorted_transcript": "a-a-a...assist me",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0160",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "REQUEST_ASSISTANCE",
+      "canonical_base_phrase": "need a hand",
+      "distorted_transcript": "um need h-h-h...hand",
+      "urgency": "medium"
+    },
+    {
+      "id": "SIM_0161",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "EMERGENCY_HELP",
+      "canonical_base_phrase": "call nurse urgently",
+      "distorted_transcript": "call nurse urgently",
+      "urgency": "critical"
+    },
+    {
+      "id": "SIM_0162",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "EMERGENCY_HELP",
+      "canonical_base_phrase": "emergency help",
+      "distorted_transcript": "emergency help",
+      "urgency": "critical"
+    },
+    {
+      "id": "SIM_0163",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "EMERGENCY_HELP",
+      "canonical_base_phrase": "urgent medical help",
+      "distorted_transcript": "urgent medical help.",
+      "urgency": "critical"
+    },
+    {
+      "id": "SIM_0164",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "EMERGENCY_HELP",
+      "canonical_base_phrase": "danger help",
+      "distorted_transcript": "danger help",
+      "urgency": "critical"
+    },
+    {
+      "id": "SIM_0165",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "EMERGENCY_HELP",
+      "canonical_base_phrase": "i cannot breathe",
+      "distorted_transcript": "cannot b-b-breathe",
+      "urgency": "critical"
+    },
+    {
+      "id": "SIM_0166",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "EMERGENCY_HELP",
+      "canonical_base_phrase": "call nurse urgently",
+      "distorted_transcript": "call nurse urgently",
+      "urgency": "critical"
+    },
+    {
+      "id": "SIM_0167",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "EMERGENCY_HELP",
+      "canonical_base_phrase": "danger help",
+      "distorted_transcript": "danger help",
+      "urgency": "critical"
+    },
+    {
+      "id": "SIM_0168",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "EMERGENCY_HELP",
+      "canonical_base_phrase": "call nine one one",
+      "distorted_transcript": "call nine one onee",
+      "urgency": "critical"
+    },
+    {
+      "id": "SIM_0169",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "EMERGENCY_HELP",
+      "canonical_base_phrase": "call nine one one",
+      "distorted_transcript": "carl nine one one",
+      "urgency": "critical"
+    },
+    {
+      "id": "SIM_0170",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "EMERGENCY_HELP",
+      "canonical_base_phrase": "panic button",
+      "distorted_transcript": "panic budton",
+      "urgency": "critical"
+    },
+    {
+      "id": "SIM_0171",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "EMERGENCY_HELP",
+      "canonical_base_phrase": "urgent medical help",
+      "distorted_transcript": "um uw...uwgent medical herp",
+      "urgency": "critical"
+    },
+    {
+      "id": "SIM_0172",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "EMERGENCY_HELP",
+      "canonical_base_phrase": "panic button",
+      "distorted_transcript": "panic bu...button ah",
+      "urgency": "critical"
+    },
+    {
+      "id": "SIM_0173",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "EMERGENCY_HELP",
+      "canonical_base_phrase": "call nine one one",
+      "distorted_transcript": "er call nine",
+      "urgency": "critical"
+    },
+    {
+      "id": "SIM_0174",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "EMERGENCY_HELP",
+      "canonical_base_phrase": "urgent medical help",
+      "distorted_transcript": "urgen- m-m-m...medical",
+      "urgency": "critical"
+    },
+    {
+      "id": "SIM_0175",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "EMERGENCY_HELP",
+      "canonical_base_phrase": "urgent medical help",
+      "distorted_transcript": "er u-u-u...urge-t m-m-m...medic-l",
+      "urgency": "critical"
+    },
+    {
+      "id": "SIM_0176",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "EMERGENCY_HELP",
+      "canonical_base_phrase": "emergency help",
+      "distorted_transcript": "em-rg h-h-h...hep",
+      "urgency": "critical"
+    },
+    {
+      "id": "SIM_0177",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "TIRED_SLEEP",
+      "canonical_base_phrase": "turn off the lights",
+      "distorted_transcript": "turn off the lights.",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0178",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "TIRED_SLEEP",
+      "canonical_base_phrase": "nap time",
+      "distorted_transcript": "Nap time",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0179",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "TIRED_SLEEP",
+      "canonical_base_phrase": "turn off the lights",
+      "distorted_transcript": "turn off the lights",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0180",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "TIRED_SLEEP",
+      "canonical_base_phrase": "quiet time please",
+      "distorted_transcript": "Quiet time please",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0181",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "TIRED_SLEEP",
+      "canonical_base_phrase": "i want to sleep",
+      "distorted_transcript": "want to sleep",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0182",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "TIRED_SLEEP",
+      "canonical_base_phrase": "turn off the lights",
+      "distorted_transcript": "turn ooff t-t-the lights",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0183",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "TIRED_SLEEP",
+      "canonical_base_phrase": "nap time",
+      "distorted_transcript": "nap time",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0184",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "TIRED_SLEEP",
+      "canonical_base_phrase": "quiet time please",
+      "distorted_transcript": "quiet t-t-time pleease",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0185",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "TIRED_SLEEP",
+      "canonical_base_phrase": "nap time",
+      "distorted_transcript": "nav ti...time",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0186",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "TIRED_SLEEP",
+      "canonical_base_phrase": "quiet time please",
+      "distorted_transcript": "uh quiet ti...time pleathe",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0187",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "TIRED_SLEEP",
+      "canonical_base_phrase": "ready for bed",
+      "distorted_transcript": "ready for ped",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0188",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "TIRED_SLEEP",
+      "canonical_base_phrase": "i want to rest",
+      "distorted_transcript": "i want to rest",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0189",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "TIRED_SLEEP",
+      "canonical_base_phrase": "i want to rest",
+      "distorted_transcript": "w-w-w...want rest",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0190",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "TIRED_SLEEP",
+      "canonical_base_phrase": "ready for bed",
+      "distorted_transcript": "r-r-r...re-dy f-f-f...for",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0191",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "TIRED_SLEEP",
+      "canonical_base_phrase": "quiet time please",
+      "distorted_transcript": "uh q-q-q...qu-et t-t-t...time",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0192",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "TIRED_SLEEP",
+      "canonical_base_phrase": "ready for bed",
+      "distorted_transcript": "read- f-f-f...for",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0193",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "GREETING_HELLO",
+      "canonical_base_phrase": "hello there",
+      "distorted_transcript": "hello there",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0194",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "GREETING_HELLO",
+      "canonical_base_phrase": "hi nice to see you",
+      "distorted_transcript": "Hi nice to see you",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0195",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "GREETING_HELLO",
+      "canonical_base_phrase": "good morning",
+      "distorted_transcript": "good morning",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0196",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "GREETING_HELLO",
+      "canonical_base_phrase": "hello there",
+      "distorted_transcript": "hello there",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0197",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "GREETING_HELLO",
+      "canonical_base_phrase": "hello there",
+      "distorted_transcript": "hello t-t-there",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0198",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "GREETING_HELLO",
+      "canonical_base_phrase": "greetings",
+      "distorted_transcript": "greetings",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0199",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "GREETING_HELLO",
+      "canonical_base_phrase": "welcome",
+      "distorted_transcript": "w-w-welcoome",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0200",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "GREETING_HELLO",
+      "canonical_base_phrase": "hi nice to see you",
+      "distorted_transcript": "hi nicee to see you",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0201",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "GREETING_HELLO",
+      "canonical_base_phrase": "hello there",
+      "distorted_transcript": "herro there um",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0202",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "GREETING_HELLO",
+      "canonical_base_phrase": "hey how are you",
+      "distorted_transcript": "hey hov awe yo...you",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0203",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "GREETING_HELLO",
+      "canonical_base_phrase": "good afternoon",
+      "distorted_transcript": "go...good avtelnoon",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0204",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "GREETING_HELLO",
+      "canonical_base_phrase": "good afternoon",
+      "distorted_transcript": "uh goot afdernoon",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0205",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "GREETING_HELLO",
+      "canonical_base_phrase": "good afternoon",
+      "distorted_transcript": "er g-g-g...good a-a-a...afterno-n",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0206",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "GREETING_HELLO",
+      "canonical_base_phrase": "greetings",
+      "distorted_transcript": "uh greet-ngs",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0207",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "GREETING_HELLO",
+      "canonical_base_phrase": "good afternoon",
+      "distorted_transcript": "er good a-a-a...afternoon",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0208",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "GREETING_HELLO",
+      "canonical_base_phrase": "welcome",
+      "distorted_transcript": "w-w-w...we-come",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0209",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "GREETING_GOODBYE",
+      "canonical_base_phrase": "see you later",
+      "distorted_transcript": "see you later",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0210",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "GREETING_GOODBYE",
+      "canonical_base_phrase": "see you soon",
+      "distorted_transcript": "see you soon",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0211",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "GREETING_GOODBYE",
+      "canonical_base_phrase": "bye bye",
+      "distorted_transcript": "bye bye",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0212",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "GREETING_GOODBYE",
+      "canonical_base_phrase": "talk to you tomorrow",
+      "distorted_transcript": "talk to you tomorrow.",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0213",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "GREETING_GOODBYE",
+      "canonical_base_phrase": "see you soon",
+      "distorted_transcript": "seee you soon",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0214",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "GREETING_GOODBYE",
+      "canonical_base_phrase": "talk to you tomorrow",
+      "distorted_transcript": "t-t-talk to youu tomorrow",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0215",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "GREETING_GOODBYE",
+      "canonical_base_phrase": "farewell",
+      "distorted_transcript": "f-f-faarewell",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0216",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "GREETING_GOODBYE",
+      "canonical_base_phrase": "talk to you tomorrow",
+      "distorted_transcript": "talk to you tomorrow",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0217",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "GREETING_GOODBYE",
+      "canonical_base_phrase": "farewell",
+      "distorted_transcript": "tharewell",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0218",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "GREETING_GOODBYE",
+      "canonical_base_phrase": "talk to you tomorrow",
+      "distorted_transcript": "talk to uh you tomorrow",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0219",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "GREETING_GOODBYE",
+      "canonical_base_phrase": "goodbye",
+      "distorted_transcript": "kootbye",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0220",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "GREETING_GOODBYE",
+      "canonical_base_phrase": "talk to you tomorrow",
+      "distorted_transcript": "talg to you tomowrow",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0221",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "GREETING_GOODBYE",
+      "canonical_base_phrase": "goodbye",
+      "distorted_transcript": "g-g-g...goo-bye",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0222",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "GREETING_GOODBYE",
+      "canonical_base_phrase": "bye bye",
+      "distorted_transcript": "um b-b-b...bye bye",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0223",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "GREETING_GOODBYE",
+      "canonical_base_phrase": "bye bye",
+      "distorted_transcript": "er b-b-b...bye b-b-b...bye",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0224",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "GREETING_GOODBYE",
+      "canonical_base_phrase": "farewell",
+      "distorted_transcript": "f-f-f...fare-ell",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0225",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "EXPRESS_GRATITUDE",
+      "canonical_base_phrase": "thanks a lot",
+      "distorted_transcript": "Thanks a lot",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0226",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "EXPRESS_GRATITUDE",
+      "canonical_base_phrase": "thanks for caring",
+      "distorted_transcript": "thanks for caring",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0227",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "EXPRESS_GRATITUDE",
+      "canonical_base_phrase": "thanks for caring",
+      "distorted_transcript": "thanks for caring",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0228",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "EXPRESS_GRATITUDE",
+      "canonical_base_phrase": "thanks a lot",
+      "distorted_transcript": "thanks a lot",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0229",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "EXPRESS_GRATITUDE",
+      "canonical_base_phrase": "very grateful",
+      "distorted_transcript": "v-v-very grateful",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0230",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "EXPRESS_GRATITUDE",
+      "canonical_base_phrase": "thanks a lot",
+      "distorted_transcript": "thanks a l-l-lot",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0231",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "EXPRESS_GRATITUDE",
+      "canonical_base_phrase": "appreciate your help",
+      "distorted_transcript": "appreciate your help",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0232",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "EXPRESS_GRATITUDE",
+      "canonical_base_phrase": "much appreciated",
+      "distorted_transcript": "much appreciated",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0233",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "EXPRESS_GRATITUDE",
+      "canonical_base_phrase": "thanks a lot",
+      "distorted_transcript": "um hangs a lod",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0234",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "EXPRESS_GRATITUDE",
+      "canonical_base_phrase": "thanks for caring",
+      "distorted_transcript": "thanksh for carink",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0235",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "EXPRESS_GRATITUDE",
+      "canonical_base_phrase": "appreciate your help",
+      "distorted_transcript": "avpleciate um your he...helb",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0236",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "EXPRESS_GRATITUDE",
+      "canonical_base_phrase": "very grateful",
+      "distorted_transcript": "very um gradefuw",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0237",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "EXPRESS_GRATITUDE",
+      "canonical_base_phrase": "thank you so much",
+      "distorted_transcript": "uh t-t-t...thank y-y-y...you",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0238",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "EXPRESS_GRATITUDE",
+      "canonical_base_phrase": "thanks a lot",
+      "distorted_transcript": "tha-ks l-l-l...lot",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0239",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "EXPRESS_GRATITUDE",
+      "canonical_base_phrase": "very grateful",
+      "distorted_transcript": "um very g-g-g...grateful",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0240",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "EXPRESS_GRATITUDE",
+      "canonical_base_phrase": "appreciate your help",
+      "distorted_transcript": "a-a-a...app-eciate y-y-y...your",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0241",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "YES_CONFIRM",
+      "canonical_base_phrase": "sure",
+      "distorted_transcript": "sure",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0242",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "YES_CONFIRM",
+      "canonical_base_phrase": "yes that is right",
+      "distorted_transcript": "Yes that is right",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0243",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "YES_CONFIRM",
+      "canonical_base_phrase": "sure",
+      "distorted_transcript": "sure",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0244",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "YES_CONFIRM",
+      "canonical_base_phrase": "sure",
+      "distorted_transcript": "sure",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0245",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "YES_CONFIRM",
+      "canonical_base_phrase": "yes",
+      "distorted_transcript": "y-y-yees",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0246",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "YES_CONFIRM",
+      "canonical_base_phrase": "yes",
+      "distorted_transcript": "y-y-yees",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0247",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "YES_CONFIRM",
+      "canonical_base_phrase": "that is what i mean",
+      "distorted_transcript": "that is what ii m-m-mean",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0248",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "YES_CONFIRM",
+      "canonical_base_phrase": "that is what i mean",
+      "distorted_transcript": "that is what i m-m-mean",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0249",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "YES_CONFIRM",
+      "canonical_base_phrase": "correct",
+      "distorted_transcript": "ah correc",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0250",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "YES_CONFIRM",
+      "canonical_base_phrase": "correct",
+      "distorted_transcript": "cowrect",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0251",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "YES_CONFIRM",
+      "canonical_base_phrase": "correct",
+      "distorted_transcript": "correcd",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0252",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "YES_CONFIRM",
+      "canonical_base_phrase": "sure",
+      "distorted_transcript": "sure um",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0253",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "YES_CONFIRM",
+      "canonical_base_phrase": "yes that is right",
+      "distorted_transcript": "yes that",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0254",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "YES_CONFIRM",
+      "canonical_base_phrase": "affirmative",
+      "distorted_transcript": "a-a-a...affi-mative",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0255",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "YES_CONFIRM",
+      "canonical_base_phrase": "affirmative",
+      "distorted_transcript": "uh a-a-a...affir-ative",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0256",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "YES_CONFIRM",
+      "canonical_base_phrase": "correct",
+      "distorted_transcript": "c-c-c...correct",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0257",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "NO_DECLINE",
+      "canonical_base_phrase": "stop",
+      "distorted_transcript": "Stop",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0258",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "NO_DECLINE",
+      "canonical_base_phrase": "that is not right",
+      "distorted_transcript": "That is not right",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0259",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "NO_DECLINE",
+      "canonical_base_phrase": "no",
+      "distorted_transcript": "no",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0260",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "NO_DECLINE",
+      "canonical_base_phrase": "no thank you",
+      "distorted_transcript": "no thank you",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0261",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "NO_DECLINE",
+      "canonical_base_phrase": "cancel that",
+      "distorted_transcript": "canceel that",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0262",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "NO_DECLINE",
+      "canonical_base_phrase": "stop",
+      "distorted_transcript": "stop",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0263",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "NO_DECLINE",
+      "canonical_base_phrase": "no thank you",
+      "distorted_transcript": "no thank y-y-you",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0264",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "NO_DECLINE",
+      "canonical_base_phrase": "incorrect",
+      "distorted_transcript": "i-i-iincorrect",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0265",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "NO_DECLINE",
+      "canonical_base_phrase": "stop",
+      "distorted_transcript": "stop uh",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0266",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "NO_DECLINE",
+      "canonical_base_phrase": "cancel that",
+      "distorted_transcript": "cancel ah th...that",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0267",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "NO_DECLINE",
+      "canonical_base_phrase": "incorrect",
+      "distorted_transcript": "in...incorlecd ah",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0268",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "NO_DECLINE",
+      "canonical_base_phrase": "incorrect",
+      "distorted_transcript": "incorrect",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0269",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "NO_DECLINE",
+      "canonical_base_phrase": "negative",
+      "distorted_transcript": "n-n-n...negativ-",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0270",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "NO_DECLINE",
+      "canonical_base_phrase": "no",
+      "distorted_transcript": "no",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0271",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "NO_DECLINE",
+      "canonical_base_phrase": "stop",
+      "distorted_transcript": "s-s-s...stop",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0272",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "NO_DECLINE",
+      "canonical_base_phrase": "no thank you",
+      "distorted_transcript": "er no tha-k",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0273",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "ENTERTAINMENT_MEDIA",
+      "canonical_base_phrase": "audiobook please",
+      "distorted_transcript": "audiobook please",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0274",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "ENTERTAINMENT_MEDIA",
+      "canonical_base_phrase": "play music",
+      "distorted_transcript": "Play music",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0275",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "ENTERTAINMENT_MEDIA",
+      "canonical_base_phrase": "change the channel",
+      "distorted_transcript": "Change the channel",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0276",
+      "data_source": "SIMULATED",
+      "severity": "clean",
+      "ground_truth_intent": "ENTERTAINMENT_MEDIA",
+      "canonical_base_phrase": "turn on the tv",
+      "distorted_transcript": "turn on the tv",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0277",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "ENTERTAINMENT_MEDIA",
+      "canonical_base_phrase": "audiobook please",
+      "distorted_transcript": "audiobook please",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0278",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "ENTERTAINMENT_MEDIA",
+      "canonical_base_phrase": "audiobook please",
+      "distorted_transcript": "audiobook please",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0279",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "ENTERTAINMENT_MEDIA",
+      "canonical_base_phrase": "put on the radio",
+      "distorted_transcript": "put on the radio",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0280",
+      "data_source": "SIMULATED",
+      "severity": "mild",
+      "ground_truth_intent": "ENTERTAINMENT_MEDIA",
+      "canonical_base_phrase": "read my book",
+      "distorted_transcript": "r-r-reead my book",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0281",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "ENTERTAINMENT_MEDIA",
+      "canonical_base_phrase": "volume up",
+      "distorted_transcript": "ah volume up",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0282",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "ENTERTAINMENT_MEDIA",
+      "canonical_base_phrase": "turn on the tv",
+      "distorted_transcript": "tun on th...the tv",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0283",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "ENTERTAINMENT_MEDIA",
+      "canonical_base_phrase": "put on the radio",
+      "distorted_transcript": "vut on the radio",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0284",
+      "data_source": "SIMULATED",
+      "severity": "moderate",
+      "ground_truth_intent": "ENTERTAINMENT_MEDIA",
+      "canonical_base_phrase": "change the channel",
+      "distorted_transcript": "ch...change the channel",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0285",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "ENTERTAINMENT_MEDIA",
+      "canonical_base_phrase": "audiobook please",
+      "distorted_transcript": "uh a-a-a...audiobook p-p-p...please",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0286",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "ENTERTAINMENT_MEDIA",
+      "canonical_base_phrase": "audiobook please",
+      "distorted_transcript": "er a-a-a...audiob-ok p-p-p...pl-ase",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0287",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "ENTERTAINMENT_MEDIA",
+      "canonical_base_phrase": "play music",
+      "distorted_transcript": "uh p-p-p...play mu-eek",
+      "urgency": "low"
+    },
+    {
+      "id": "SIM_0288",
+      "data_source": "SIMULATED",
+      "severity": "severe",
+      "ground_truth_intent": "ENTERTAINMENT_MEDIA",
+      "canonical_base_phrase": "put on the radio",
+      "distorted_transcript": "uh put on",
+      "urgency": "low"
+    }
+  ]
+}
